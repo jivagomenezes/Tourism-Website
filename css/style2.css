@@ -190,17 +190,38 @@
   flex: 1;
   margin-right: -50px;
 }
-.map-frame {
-  border-right: 100px;
-}
 
-.map-frame iframe {
-  width: 600px; /* Adjust as needed */
+.google-maps,
+.map-frame,
+iframe {
+  width: 400px; /* Adjust as needed */
   height: 600px; /* Adjust as needed */
+  padding-right: 4rem;
 }
 
 .bullet-points {
   list-style-type: disc;
+}
+
+/* CSS */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.google-maps {
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row;
+  }
+
+  .google-maps {
+    order: 0;
+  }
 }
 
 /* header */
