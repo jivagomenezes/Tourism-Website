@@ -183,7 +183,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 20px;
+  width: auto;
 }
 
 .tour-guides {
@@ -203,6 +203,13 @@ iframe {
   list-style-type: disc;
 }
 
+.blog-text {
+  padding-right: 1rem;
+}
+
+.blog-text-dicas {
+  padding-top: 20px;
+}
 /* CSS */
 .content-wrapper {
   display: flex;
