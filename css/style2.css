@@ -194,9 +194,9 @@
 .google-maps,
 .map-frame,
 iframe {
-  width: 400px; /* Adjust as needed */
+  width: 26rem; /* Adjust as needed */
   height: 600px; /* Adjust as needed */
-  padding-right: 4rem;
+  padding-right: 5rem;
 }
 
 .bullet-points {
