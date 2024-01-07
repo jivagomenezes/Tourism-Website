@@ -6,7 +6,7 @@
  * Each section is documented with comments to provide clarity and understanding.
  */
 :root {
-  --green: #1ec6b6;
+  --green: rgb(60, 193, 131);
   --light-grey: #f7f7f7;
   --dark: #0e1010;
   --trans: all 0.3s ease-in-out;
@@ -15,7 +15,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(73, 160, 120, 1);
+  background-color: rgb(43, 161, 106);
   padding: 1rem 0;
   z-index: 999;
 }
